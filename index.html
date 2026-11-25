@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Linha do Tempo • Uma Vida em Sépia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Playfair+Display:ital,wght@0,700;1,400&family=Courier+Prime&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Textura de grão sobre o site todo -->
+  <div class="grain"></div>
+
+  <!-- Vinheta retrô nas bordas -->
+  <div class="vignette"></div>
+
+  <!-- Cabeçalho -->
+  <header class="hero">
+    <div class="hero-frame">
+      <p class="hero-kicker">★ Edição especial ★</p>
+      <h1 class="hero-title">Linha do Tempo</h1>
+      <p class="hero-sub">Uma vida contada em capítulos</p>
+      <div class="film-strip">
+        <span></span><span></span><span></span><span></span><span></span>
+      </div>
+    </div>
+    <div class="scroll-hint">▾ role para começar ▾</div>
+  </header>
+
+  <!-- Linha do tempo -->
+  <main class="timeline" id="timeline">
+
+    <!-- 18 anos -->
+    <section class="event" data-age="18">
+      <div class="event-dot"></div>
+      <article class="card">
+        <div class="card-tape"></div>
+        <div class="card-photo">
+          <div class="photo-frame">
+            <div class="photo-img" style="--img: '18'">18</div>
+          </div>
+        </div>
+        <div class="card-content">
+          <span class="card-tag">Capítulo I</span>
+          <h2 class="card-age">18 anos</h2>
+          <p class="card-date">O início de tudo</p>
+          <p class="card-text">
+            A juventude vai ser explosiva, arrumar um emprego é o primeiro ponto.
+            e a sede por descobrir o mundo, tirar a habilitação e sair rodando por ai.
+          </p>
+          <ul class="card-list">
+            <li>🎸 primeiros passos</li>
+            <li>🚲 Liberdade sobre rodas</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+    <!-- 25 anos -->
+    <section class="event" data-age="25">
+      <div class="event-dot"></div>
+      <article class="card">
+        <div class="card-tape"></div>
+        <div class="card-photo">
+          <div class="photo-frame">
+            <div class="photo-img" style="--img: '25'">25</div>
+          </div>
+        </div>
+        <div class="card-content">
+          <span class="card-tag">Capítulo II</span>
+          <h2 class="card-age">25 anos</h2>
+          <p class="card-date">Aprendendo a voar</p>
+          <p class="card-text">
+            Os sonhos ganharão forma. com um bom emprego as
+            responsabilidades chegarão, mas outro ponto é construir uma família.
+          </p>
+          <ul class="card-list">
+            <li>💼 aprendizagem profissionais</li>
+            <li>📷 ter um realcionamento</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+    <!-- 30 anos -->
+    <section class="event" data-age="30">
+      <div class="event-dot"></div>
+      <article class="card">
+        <div class="card-tape"></div>
+        <div class="card-photo">
+          <div class="photo-frame">
+            <div class="photo-img" style="--img: '30'">30</div>
+          </div>
+        </div>
+        <div class="card-content">
+          <span class="card-tag">Capítulo III</span>
+          <h2 class="card-age">30 anos</h2>
+          <p class="card-date">A maturidade chega</p>
+          <p class="card-text">
+            A vida ganhará ritmo próprio. E uma das conquistas com certeza é ter uma casa própia. Você vai aprender
+            que ter responsabilidade é a maior das virtudes e isso vai te ajudar muito nessa jornada.
+          </p>
+          <ul class="card-list">
+            <li>🏠 Construirar um lar</li>
+            <li>🌱 Planos que irão florescer</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+    <!-- 40 anos -->
+    <section class="event" data-age="40">
+      <div class="event-dot"></div>
+      <article class="card">
+        <div class="card-tape"></div>
+        <div class="card-photo">
+          <div class="photo-frame">
+            <div class="photo-img" style="--img: '40'">40</div>
+          </div>
+        </div>
+        <div class="card-content">
+          <span class="card-tag">Capítulo IV</span>
+          <h2 class="card-age">40 anos</h2>
+          <p class="card-date">O equilíbrio</p>
+          <p class="card-text">
+            Aquele momento em que você vai parar, olhar para trás, sorrir e pensar.
+            Bom, a jornada está ficando maravilhosa, então voub viajar com a família.
+          </p>
+          <ul class="card-list">
+            <li>🍷 viajar o mundo</li>
+            <li>🎞️ criar um albúm de fotografias</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+    <!-- 50 anos -->
+    <section class="event" data-age="50">
+      <div class="event-dot"></div>
+      <article class="card">
+        <div class="card-tape"></div>
+        <div class="card-photo">
+          <div class="photo-frame">
+            <div class="photo-img" style="--img: '50'">50</div>
+          </div>
+        </div>
+        <div class="card-content">
+          <span class="card-tag">Capítulo V</span>
+          <h2 class="card-age">50 anos</h2>
+          <p class="card-date">Meio século de histórias</p>
+          <p class="card-text">
+            Cinco décadas,que alegria! A vida agora tem o clima dos clássicos do cinema:
+            enfim o resto é história a ser vivida, pois afinal, o que eu mais quero,
+            espero ter conquistado tudo o que desejo hoje
+          </p>
+          <ul class="card-list">
+            <li>🏆 Meio século vivido</li>
+            <li>💿 Coleção de memórias</li>
+            <li>✨ O melhor ainda está por vir</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="vinyl">
+      <div class="vinyl-hole"></div>
+    </div>
+    <p>“A vida é como um disco de vinil: tem seus riscos, mas a música vale a pena.”</p>
+    <span>© Linha do Tempo — feito com nostalgia</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
